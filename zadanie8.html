@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>HomeWork 8:</title>
+	<link rel="stylesheet" href="zadanie8.css">
+</head>
+
+
+<body>
+	<button type="button" class="Button" onclick="openForm()">Открыть</button>
+	<div id="ID" class="PopUp">
+		<form action="#" method="get">
+			<h1 class="head-class">Welcome to this website!</h1>
+			<p>Имя:</p>
+			<input type="text" placeholder="Your name:">
+			<p>Email:</p>
+			<input type="text" placeholder="example@mail.com">
+			<p>Пароль:</p>
+			<input type="password" placeholder="Write password">
+			<p>Сообщение:</p>
+			<textarea name="Сообщение:" cols="30" rows="10"
+				placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, quae!">
+				</textarea>
+			<br>
+			<p><input type="checkbox" value="I am agree with all mentioned above.">I am agree with all mentioned above.</p>
+			<div form="action" method="">
+				<button type="submit" onclick="SendClick()">Send</button>
+				<button type="reset">Delete all</button>
+			</div>
+			<button type="button" class="btn cancel" onclick="closeForm()">Закрыть</button>
+		</form>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="zadanie8.js"> </script>
+</body>
+
+</html>
